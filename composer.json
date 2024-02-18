@@ -1,0 +1,22 @@
+{
+    "name": "tairocruiz/urimocker",
+    "description": "a library for Mocking URI in php applications",
+    "type": "library",
+    "require": {
+        "php-vcr/php-vcr": "^1.6",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tairocruiz\\Urimocker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aman Tairo",
+            "email": "tairocruise@yahoo.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
